@@ -208,6 +208,7 @@ jobs:
       - name: List Container Apps
         run: |
           az containerapp list --resource-group ${{ vars.AZURE_RG }} --output table
+
   deploy:
     name: Deploy
     needs: Publish
