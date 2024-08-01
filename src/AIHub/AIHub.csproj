@@ -31,7 +31,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="wwwroot\images\aihub-logo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
     <Content Update="wwwroot\images\customer\customer-logo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\customer\plain-concepts-logo%402x.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
